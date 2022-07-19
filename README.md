@@ -91,3 +91,6 @@ For more detail about each of these steps, see the project lesson.
 This section is to make changes to the Github repo in order to update/restart the codepipeline
 First Push to test codebuild
 Second Push 
+
+## How to access the deployed app
+EXTERNAL IP URL: ac9bff55be92a4567815c8561ac655e9-1453426048.us-east-2.elb.amazonaws.com
