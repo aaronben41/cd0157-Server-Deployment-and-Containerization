@@ -12,9 +12,13 @@ The Flask app that will be used for this project consists of a simple API with t
 
 The app relies on a secret set as the environment variable `JWT_SECRET` to produce a JWT. The built-in Flask server is adequate for local development, but not production, so you will be using the production-ready [Gunicorn](https://gunicorn.org/) server when deploying the app.
 
+## How to access the deployed app
+The deployed app can be accessed from this url:
+EXTERNAL IP URL: ac9bff55be92a4567815c8561ac655e9-1453426048.us-east-2.elb.amazonaws.com
 
 
 ## Prerequisites
+
 
 * Docker Desktop - Installation instructions for all OSes can be found <a href="https://docs.docker.com/install/" target="_blank">here</a>.
 * Git: <a href="https://git-scm.com/downloads" target="_blank">Download and install Git</a> for your system. 
@@ -86,11 +90,4 @@ Completing the project involves several steps:
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
 For more detail about each of these steps, see the project lesson.
-
-## Testing Codebuild
-This section is to make changes to the Github repo in order to update/restart the codepipeline
-First Push to test codebuild
-Second Push 
-
-## How to access the deployed app
-EXTERNAL IP URL: ac9bff55be92a4567815c8561ac655e9-1453426048.us-east-2.elb.amazonaws.com
+ 
